@@ -1,0 +1,16 @@
+###
+POST http://lb-93df9af7.elb.localhost.localstack.cloud:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+
+{
+  "name": "ahmed",
+  "email": "lpoo@gmail.com",
+  "address": "Cairo,Egypt",
+  "dateOfBirth": "2000-01-26",
+  "registeredDate": "2024-01-26"
+}
+
+
+###
